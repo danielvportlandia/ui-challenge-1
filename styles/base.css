@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    width: 100%;
+}
+
+#wrapper {
+    margin: 2vw auto;
+}
+
+.borders {
+    border: 0.1px solid gray;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 480px;
+    max-width: 960px;
+    margin: 10px auto;
+    text-align: center;
+    padding: auto;
+}
+
+header {
+    background-color: red;
+    height: 75px;
+    display: table;
+}
+
+h1, h2, p, li {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+aside {
+    background-color: purple;
+    height: 150px;
+    display: table;
+}
+
+#main-section article {
+    background-color: green;
+    height: 125px;
+    display: table;    
+}
+
+#list-section ul {
+    padding: 0;
+    list-style: none;
+}
+
+#article-list li {
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+    float: left;
+    background-color: yellow;
+}
+
+footer {
+    float: left;
+    background-color: cyan;
+    height: 80px;
+    margin: 0;
+    display: table;
+}
